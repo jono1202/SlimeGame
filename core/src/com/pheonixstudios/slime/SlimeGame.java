@@ -16,6 +16,8 @@ public class SlimeGame extends ApplicationAdapter {
 		img = new Texture("badlogic.jpg");
 	}
 
+	//pheonix studios has been fixed
+
 	@Override
 	public void render () {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
