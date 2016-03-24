@@ -1,10 +1,10 @@
-package com.pheonixstudios.slime.android;
+package com.phoenixstudios.slime.android;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.pheonixstudios.slime.SlimeGame;
+import com.phoenixstudios.slime.SlimeGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override

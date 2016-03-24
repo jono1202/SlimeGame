@@ -7,8 +7,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'com.pheonixstudios.slime.GdxDefinition'
-    devModules 'com.pheonixstudios.slime.GdxDefinitionSuperdev'
+    modules 'com.phoenixstudios.slime.GdxDefinition'
+    devModules 'com.phoenixstudios.slime.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {

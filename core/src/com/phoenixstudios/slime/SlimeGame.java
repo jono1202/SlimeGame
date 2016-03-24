@@ -1,4 +1,4 @@
-package com.pheonixstudios.slime;
+package com.phoenixstudios.slime;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -16,7 +16,7 @@ public class SlimeGame extends ApplicationAdapter {
 		img = new Texture("badlogic.jpg");
 	}
 
-	//pheonix studios has been fixed
+	//phoenix studios has been fixed
 
 	@Override
 	public void render () {

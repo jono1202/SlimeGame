@@ -6,8 +6,11 @@
 	<inherits name='libgdx-utils-box2d' />
 	<inherits name='libgdx-utils' />
 
-	<inherits name='SlimeGame' />
-	<entry-point class='com.pheonixstudios.slime.client.HtmlLauncher' />
-	
-	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
+    <inherits name='com.phoenixstudios.slime.GdxDefinition' />
+    
+    <collapse-all-properties />
+    
+	<add-linker name="xsiframe"/>	
+	<set-configuration-property name="devModeRedirectEnabled" value="true"/>
+	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>	
 </module>
